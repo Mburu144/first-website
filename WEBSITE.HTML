@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index2.html"><img src="images/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon class="fa" name="close" onclick="hidemenu()"></ion-icon>
+                <ul>
+                    <li><a href="index2.html">HOME</a></li>
+                    <li><a href="WEBSITE.HTML">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <ion-icon class="fa" name="menu" onclick="showmenu()"></ion-icon>
+        
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world' largest university</h1>
+                <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                    Nemo, id autem. Necessitatibus
+                    tenetur deserunt, eligendi 
+                    soluta eveniet consectetur autem, 
+                    est ad provident magni beatae doloremque placeat ut 
+                    veritatis aspernatur earum?</p>
+                    <a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem fuga eaque 
+            perferendis impedit nulla, sed suscipit, adipisci, porro <br> quae vitae qui! Consectetur, placeat provident! Fugit quas eos harum perferendis impedit.</p>
+         
+        <div class="icons">
+            <ion-icon name="logo-facebook" class="fi"></ion-icon>
+            <ion-icon name="logo-twitter" class="fi"></ion-icon>
+            <ion-icon name="logo-instagram" class="fi"></ion-icon>
+            <ion-icon name="logo-linkedin" class="fi"></ion-icon>
+        </div>
+            <p>made with <ion-icon name="heart-outline" class="heart-outline"></ion-icon> by Easy Tutorials </p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+
+</body>
+</html>  
